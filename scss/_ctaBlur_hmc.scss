@@ -1,0 +1,72 @@
+//blur CTAs
+
+
+$panel-bg-image-lg: url('../images/home-assets/m365-d.jpg');
+
+$panel-bg-position-lg: 35% top;
+$panel-bg-position-xl: 10% top;
+$panel-bg-position-xxl: right top;
+
+.blurbtn-outer{
+    position: relative;
+    overflow:hidden;
+    height:3rem;
+    max-width: 100%;
+    margin-right:auto;
+    border-radius: 0.8rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:0.8rem 1.2rem 0.8rem 1.2rem;
+    border: 1px solid #dddddd;
+    cursor: pointer!important;
+    a{
+        z-index:100;
+        color: $gray-900!important;
+        margin-bottom: 0!important;
+        &::after{
+            display: none!important;
+        }
+    }
+    .blurbtn-inner{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom:0;
+        background-image: $panel-bg-image-lg;
+        background-size: cover;
+        transform: scale(1.5, 1.9);
+        filter: blur(1.5rem);
+
+    }
+    .blurbtn-inner.floaties{
+        background-image: url('../images/home-assets/m365-d.jpg');
+    }
+}
+
+.blended-bg{
+    width:100%;
+    position: relative;
+    z-index:10;
+    
+    @include media-breakpoint-up(lg){
+       &{
+            background-image: $panel-bg-image-lg;
+            background-position: $panel-bg-position-lg;
+            background-size: cover;
+            height:500px;
+       }
+    }
+    @include media-breakpoint-up(xl){
+        &{
+             background-position: $panel-bg-position-xl;
+        }
+     }
+     @include media-breakpoint-up(xxl){
+        &{
+             background-position: $panel-bg-position-xxl;
+        }
+     }
+}

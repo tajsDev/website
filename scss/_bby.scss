@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "human-regular";
+	src: local("human-regular"), url(../fonts/human-regular.woff2) format("woff2"), url(../fonts/human-regular.woff) format("woff"), url(../fonts/human-regular.ttf) format("ttf");
+	font-weight: 400
+}
+@font-face {
+	font-family: "human-bold";
+	src: local("human-bold"), url(../fonts/human-bold.woff2) format("woff2"), url(../fonts/human-bold.woff) format("woff"), url(../fonts/human-bold.ttf) format("ttf");
+	font-weight: 600
+}
+
+html {
+	font-size: 15px;
+  }
+  
+  @media (min-width: 576px) {
+	html {
+	  font-size: 17px;
+	}
+  }
+  @media (min-width: 768px) {
+	html {
+	  font-size: 19px;
+	}
+  }
+
+
+

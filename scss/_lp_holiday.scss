@@ -1,0 +1,119 @@
+// custom styles for holiday
+
+.lp-m-crop{
+    overflow: hidden;
+    aspect-ratio: 3 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include media-breakpoint-up(lg){
+        aspect-ratio: unset;
+    }
+    
+} 
+.darkHeaderText {
+    color: #050e3f;
+}
+.cta-copy.color-050E3F::after {
+    content: url("../images/circle-caret-050E3F.svg");
+}
+@include media-breakpoint-up(lg){
+    .cta-copy.color-050E3F.knockout-lg::after, .cta-copy.white::after {
+        content: url("../images/circle-caret-wht.svg");
+        }
+}
+.cta-copy, .cta-copy:hover {
+    position: relative;
+    color: #050E3F!important;
+    cursor: pointer !important;
+}
+@include media-breakpoint-up(lg){
+    h1{
+        font-size: $h2-font-size;
+    }
+}
+@include media-breakpoint-up(lg){
+    .knockout-lg {
+        color: #ffffff!important;
+    }
+}
+
+@include media-breakpoint-up(lg){
+    .nav-link{
+        font-size: 0.8rem;
+    }
+}
+.wink {
+    width: calc(1.54858rem + 4.8vw);
+    @include media-breakpoint-up(lg){
+        width: calc(1.54858rem + 1.8vw);
+    }
+}
+  
+  a.link,
+  a.btn-link,
+  a.btn-link:hover,
+  a.btn-link:active {
+    color: #0078D4
+  }
+  
+  .header-color-bg{
+    // background-color: #0A27D1;
+    animation: bg-color-rotate 15s ease-in-out infinite;
+  }
+  .wink-color{
+    animation: wink-color-rotate 15s ease-in-out infinite;
+  }
+
+  //header insets
+
+  .logo-square{
+    aspect-ratio: 1 / 1;
+    
+  }
+
+  .top-logo-row, .bottom-logo-row{
+    display: flex;
+    flex-basis: 48%;
+  }
+
+  .tl-square, .bl-square, .tr-square, .br-square{
+    display: flex;
+    flex-basis: 48%;
+  }
+
+  .tl-square{
+    background-color: #0078D4;
+    
+  }
+  .bl-square{
+    background-color: #00d475;
+
+  }
+  .tr-square{
+    background-color: #5fd400;
+  }
+  .br-square{
+    background-color: #d48a00;
+  }
+
+  @include media-breakpoint-down(lg){
+    .orange-blur, .purple-blur, .aqua-blur, .gaming-blur{
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .orange-blur{
+        background-image: url(../images/hmc-assets/orangeblur.jpg);
+    }
+    .purple-blur{
+        background-image: url(../images/hmc-assets/purpleblur.jpg);
+    }
+    .aqua-blur{
+        background-image: url(../images/hmc-assets/aquablur.jpg);
+    }
+    .gaming-blur{
+        background-image: url(../images/hmc-assets/gamingblur.jpg);
+    }
+  }

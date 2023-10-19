@@ -1,0 +1,277 @@
+// Scss Document
+
+// animations and keyframes
+
+.slide-in-left-0 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.slide-in-left-1 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
+}
+.slide-in-left-2 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+}
+.slide-in-left-3 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.75s both;
+}
+.slide-in-left-4 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+}
+.slide-in-left-5 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.25s both;
+}
+.slide-in-left-6 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+}
+.slide-in-left-7 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.75s both;
+}
+.slide-in-left-8 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+}
+.slide-in-left-9 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.25s both;
+}
+.slide-in-left-10 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.5s both;
+}
+.slide-in-left-11 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.75s both;
+}
+.slide-in-left-12 {
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+}
+
+.slide-in-bottom-0 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.slide-in-bottom-1 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
+}
+.slide-in-bottom-2 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+}
+.slide-in-bottom-3 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.75s both;
+}
+.slide-in-bottom-4 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+}
+.slide-in-bottom-5 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.25s both;
+}
+.slide-in-bottom-6 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+}
+.slide-in-bottom-7 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.75s both;
+}
+.slide-in-bottom-8 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+}
+.slide-in-bottom-9 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.25s both;
+}
+.slide-in-bottom-10 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.5s both;
+}
+.slide-in-bottom-11 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.75s both;
+}
+.slide-in-bottom-12 {
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+}
+
+.pane-travel-1{
+	        animation: pane-travel 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s both;
+}
+
+.kenburns-bottom {
+	        animation: kenburns-bottom 15s ease both infinite;
+}
+
+.hover-expand{
+    animation: hover-expland 0.75s ease both;
+}
+.fade-in{
+    animation: fade-in 0.75s ease 2s both;
+}
+.toss-up-0 {
+	        animation: toss-up 0.375s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
+}
+.toss-up-1 {
+	        animation: toss-up 0.375s cubic-bezier(0.445, 0.050, 0.550, 0.950) 0.125s both;
+}
+.toss-up-2{
+	        animation: toss-up 0.375s cubic-bezier(0.445, 0.050, 0.550, 0.950) 0.25s both;
+}
+.toss-up-3{
+	        animation: toss-up 0.375s cubic-bezier(0.445, 0.050, 0.550, 0.950) 0.375s both;
+}
+.toss-up-4{
+  animation: toss-up 0.375s cubic-bezier(0.445, 0.050, 0.550, 0.950) 1s both;
+}
+.bg-pan-right {
+	animation: bg-pan-right 15s ease-in-out infinite alternate both;
+}
+
+@media (prefers-reduced-motion) {
+  .pagewrapper *  {
+    animation: none!important;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+            opacity: 0;
+  }
+  100% {
+            opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+            transform: translateX(-50px);
+            opacity: 0;
+  }
+  100% {
+            transform: translateX(0);
+            opacity: 1;
+  }
+}
+
+@keyframes slide-in-bottom {
+  0% {
+            transform: translateY(50px);
+            opacity: 0;
+  }
+  100% {
+            transform: translateY(0);
+            opacity: 1;
+  }
+}
+@keyframes toss-up {
+  0% {
+            transform: translateY(150px);
+            opacity: 0;
+  }
+  100% {
+            transform: translateY(0);
+            opacity: 1;
+  }
+}
+@keyframes pane-travel-1 {
+  0% {
+    width: 10%;
+
+  }
+  50% {
+    width: 12%;
+
+  }
+  100% {
+    width: 10%;
+
+  }
+}
+
+@keyframes pane-travel-2 {
+  0% {
+    width: 40%;
+
+  }
+  50% {
+    width: 50%;
+
+  }
+  100% {
+    width: 40%;
+
+  }
+}
+@keyframes kenburns-bottom {
+  0% {
+            transform: scale(1) translateY(0);
+            transform-origin: 50% 84%;
+  }
+  50% {
+            transform: scale(1.05) translateY(15px);
+            transform-origin: bottom;
+  }
+  100% {
+            transform: scale(1) translateY(0);
+            transform-origin: 50% 84%;
+  }
+}
+@keyframes button-pulse {
+  0% {
+            transform: scale(0.85, 0.85);
+            opacity: 1;
+  }
+  40% {
+            transform: scale(1, 1);
+            opacity: 1;
+  }
+  100% {
+            transform: scale(0.85, 0.85);
+            opacity: 1;
+  }
+}
+
+@keyframes hover-expand {
+    0% {
+            transform: scale(0, 0);
+    }
+    100% {
+            transform: scale(1.1, 1.1)
+    }
+}
+
+ @keyframes bg-pan-right {
+  0% {
+    background-position: 45% 50%;
+  }
+  100% {
+    background-position: 30% 50%;
+  }
+}
+
+@keyframes bg-color-rotate {
+  0% {
+    background-color: #0A27D1;
+    color: #ffffff;
+  }
+  25% {
+    background-color: #AE7CC1;
+    color: #050e3f
+  }
+  50% {
+    background-color: #A8E1C5;
+    color: #050e3f
+  }
+  80% {
+    background-color: #FEB38A;
+    color: #050e3f
+  }
+  100% {
+    background-color: #0A27D1;
+    color: #ffffff
+  }
+}
+@keyframes wink-color-rotate {
+  0% {
+    fill: #ffffff;
+  }
+  25% {
+    fill: #050e3f
+  }
+  50% {
+    fill: #050e3f
+  }
+  80% {
+    fill: #050e3f
+  }
+  100% {
+    fill: #ffffff
+  }
+}

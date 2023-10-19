@@ -1,0 +1,83 @@
+// Scss Document
+
+.hotspot {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+.hotspot:hover .hotspot__button, .hotspot:active .hotspot__button {
+  border-color: #ff774c;
+}
+.hotspot:hover .hotspot__button:after, .hotspot:active .hotspot__button:after {
+  background-color: #ff774c;
+}
+.hotspot--selected {
+  z-index: 999;
+}
+.hotspot--selected .hotspot__label {
+  opacity: 1;
+}
+.hotspot__button {
+  height: 1.85rem;
+  width: 1.85rem;
+  padding: 0;
+  border-radius: 100%;
+  background-image: url("../images/hotspot.png");
+  background-size: contain;
+  background-color:#e5613b;
+  background-position: center center;
+  border: 2px solid #e5613b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  animation: button-pulse 7s ease-in-out infinite;
+}
+
+.hotspot__label {
+  position: absolute;
+  padding: 0 0 1.1em 0;
+  width: 16em;
+  max-width: 100vw;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: -1;
+  pointer-events: none;
+  border-radius: 2px;
+  user-select: none;
+  opacity: 0;
+  transition: all 0.1s ease;
+}
+
+
+.hotspot--top-left .hotspot__label {
+  top: 24px;
+  left: 24px;
+}
+
+.hotspot--top-right .hotspot__label {
+  top: 24px;
+  right: 24px;
+}
+
+.hotspot--bottom-right .hotspot__label {
+  right: 24px;
+  bottom: 24px;
+}
+
+.hotspot--bottom-left .hotspot__label {
+  bottom: 24px;
+  left: 24px;
+}
+
+
+.hotspot--bottom-center .hotspot__label {
+  bottom: 24px;
+  left: 0;
+  margin-left:-7rem
+}
+.hotspot--top-center .hotspot__label {
+  top: 24px;
+  left: 0;
+  margin-left:-7rem
+}

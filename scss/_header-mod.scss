@@ -1,0 +1,113 @@
+#header-module {
+  .mobile {
+    margin-top: 11rem;
+    padding: 0 3.2rem;
+    width: 100%;
+    .ms-logo {
+      height: 3rem;
+      margin-bottom: 3rem;
+    }
+    .shortcut {
+      max-width: 80%;
+      margin-left: -12px;
+      padding: 25px 0px;
+    }
+    h2 {
+      font-size: 4.3rem;
+      margin-bottom: 1.618rem;
+    }
+    h3 {
+      font-size: 2.8rem;
+    }
+    @media (max-width: 767px) {
+      .ms-logo {
+        height: 2.6rem;
+        margin-bottom: 2.6rem;
+      }
+      .shortcut {
+        padding: 0 0 25px 0;
+      }
+      h2 {
+        font-size: 3.6rem;
+      }
+      h3 {
+        font-size: 2.3rem;
+      }
+    }
+    @media (max-width: 471px) {
+      .ms-logo {
+        height: 2.1rem;
+        margin-bottom: 2.1rem;
+      }
+      .shortcut {
+        padding: 0 0 20px 0;
+        margin-left: -6px;
+      }
+      h2 {
+        font-size: 2.8rem;
+      }
+      h3 {
+        font-size: 1.8rem;
+      }
+    }
+    @media (max-width: 375px) {
+      h2 {
+        margin-bottom: .7rem;
+      }
+    }
+  }
+  
+  .prosumerText {
+    color: #30005d;
+  }
+
+  .p-4 {
+    padding: 2rem !important;
+  }
+  @media (max-width: 425px) {
+    .mobile {
+      padding: 0 2.1rem;
+      margin-top: 9rem;
+    }
+  }
+  @media (min-width: 767px) {
+    .mobile {
+      padding: 0 2.7rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .ms-logo {
+      height: 2rem;
+    }
+  
+    .shortcut {
+      max-width: 55%;
+      padding-right: 4px;
+    }
+    .header-background {
+      z-index: 40;
+      position: relative;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+    .header-left,
+    .header-right {
+      position: absolute;
+      height: 100%;
+      z-index: 50;
+    }
+    .header-left {
+      left: 0;
+    }
+    .header-right {
+        right: 0;
+    }
+  }
+  @media (min-width: 1025px) {
+    h3 {
+      font-size: 1.818rem;
+    }
+  }
+}
