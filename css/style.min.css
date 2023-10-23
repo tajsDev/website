@@ -104,7 +104,7 @@ html {
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #2f2f2f;
-  --bs-body-bg: #fff
+  --bs-body-bg: #85bcc7
 }
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
@@ -123,7 +123,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #85bcc7;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
@@ -4520,7 +4520,7 @@ textarea.form-control-lg {
   cursor: default
 }
 .nav-tabs {
-  border-bottom: 1px solid #fff
+  border-bottom: 1px solid #00697E
 }
 .nav-tabs .nav-link {
   margin-bottom: -1px;
@@ -4539,9 +4539,9 @@ textarea.form-control-lg {
   border-color: transparent
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-  color: #0078d4;
+  color: #00697E;
   background-color: #fff;
-  border-color: #f7f7f7 #f7f7f7 #fff
+  border-color: #00697E #00697E #00697E
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -17322,9 +17322,7 @@ a, a:active, a:hover {
   height: 1.618rem;
   margin: 0 1.618rem auto 0
 }
-.m365-logo {
-  height: 1.618rem
-}
+
 .iconlogo.Git {
   background-image: url("../images/GitHub_Logo.png")
 }
@@ -18113,7 +18111,7 @@ a, a:active, a:hover {
   border-top: none !important;
   padding: 1.5rem 1.5rem 1.5rem 1.5rem
 }
-.mslogo {
+.Iconlogo {
   background-size: contain;
   background-repeat: no-repeat;
   width: 8.5rem;
@@ -18123,11 +18121,13 @@ a, a:active, a:hover {
 .m365-logo {
   height: 1.618rem
 }
-.mslogo.blue {
-  background-image: url("../images/win11_blue.svg")
+
+.iconlogo.Git {
+  background-image: url("../images/GitHub_Logo.png")
 }
-.mslogo.white {
-  background-image: url("../images/win11_wht.svg")
+.iconlogo.Link {
+  background-image: url("../images/LI-Logo.png")
+      }
 }
 a.btn-link {
   color: #0078d4
@@ -18961,23 +18961,4 @@ a.link, a.btn-link, a.btn-link:hover, a.btn-link:active {
 }
 .br-square {
   background-color: #d48a00
-}
-@media (max-width: 991.98px) {
-  .orange-blur, .purple-blur, .aqua-blur, .gaming-blur {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat
-  }
-  .orange-blur {
-    background-image: url("../images/hmc-assets/pinkblur.jpg")
-  }
-  .purple-blur {
-    background-image: url(../images/hmc-assets/purpleblur.jpg)
-  }
-  .aqua-blur {
-    background-image: url("../images/hmc-assets/blueblur.jpg")
-  }
-  .gaming-blur {
-    background-image: url("../images/hmc-assets/gameblur.jpg")
-  }
 }
